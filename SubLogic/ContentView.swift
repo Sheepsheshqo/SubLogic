@@ -1,24 +1,18 @@
-//
-//  ContentView.swift
-//  SubLogic
-//
-//  Created by Burhan Bişgin on 20.02.2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(AppViewModel.self) private var appViewModel
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if appViewModel.onboardingDone {
+            MainTabView()
+        } else {
+            OnboardingView()
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(AppViewModel())
 }

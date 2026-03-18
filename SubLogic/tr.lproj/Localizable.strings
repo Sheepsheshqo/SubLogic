@@ -1,0 +1,234 @@
+// MARK: - Sekmeler
+"tab.dashboard"    = "Panel";
+"tab.timeline"     = "Takvim";
+"tab.statistics"   = "İstatistikler";
+"tab.settings"     = "Ayarlar";
+
+// MARK: - Panel
+"dashboard.title"          = "Panel";
+"dashboard.monthly"        = "Aylık";
+"dashboard.totalExpenses"  = "Toplam Harcama";
+"dashboard.activeCount"    = "%d aktif";
+"dashboard.perMonth"       = "aylık";
+"dashboard.upcomingPayments" = "Yaklaşan Ödemeler";
+"dashboard.seeAll"         = "Tümünü Gör";
+"dashboard.noUpcoming"     = "Yaklaşan ödeme yok. Her şey yolunda!";
+"dashboard.empty.hint"     = "İlk aboneliğini eklemek için + tıkla";
+
+// MARK: - Vade Rozetleri
+"due.today"    = "BUGÜN";
+"due.tomorrow" = "YARIN";
+"due.inDays"   = "%d gün sonra";
+
+// MARK: - Takvim
+"timeline.today"      = "Bugün";
+"timeline.tomorrow"   = "Yarın";
+"timeline.empty"      = "Önümüzdeki 60 günde yaklaşan ödeme yok.\nHer şey yolunda!";
+"timeline.noPayments" = "Bu gün için ödeme bulunmuyor.";
+
+// MARK: - İstatistikler
+"stats.monthlyTotal"      = "Aylık Toplam";
+"stats.yearlyTotal"       = "Yıllık Toplam";
+"stats.subsCount"         = "%d aktif abonelik";
+"stats.byCategory"        = "Kategoriye Göre";
+"stats.subCount"          = "%d abonelik";
+"stats.mostExpensive"     = "En Pahalı";
+"stats.cheapest"          = "En Ucuz";
+"stats.avgPerSub"         = "Ort. / Abonelik";
+"stats.total"             = "Toplam";
+"stats.byCycle"           = "Fatura Dönemine Göre";
+"stats.upcoming"          = "Yaklaşan Harcama";
+"stats.next7d"            = "Sonraki 7 gün";
+"stats.next30d"           = "Sonraki 30 gün";
+"stats.next90d"           = "Sonraki 90 gün";
+"stats.currencyConverter" = "Döviz Çevirici";
+"stats.period.monthly"    = "Aylık";
+"stats.period.yearly"     = "Yıllık";
+
+// MARK: - Ayarlar
+"settings.section.privacy"  = "Gizlilik ve Güvenlik";
+"settings.section.backup"   = "Bulut Yedekleme";
+"settings.section.general"  = "Genel";
+"settings.section.data"     = "Veri Yönetimi";
+
+"settings.encryption"          = "Uçtan Uca Şifreleme";
+"settings.encryption.subtitle" = "Aktif ve Korumalı";
+"settings.faceID"              = "Uygulama Kilidi (Face ID)";
+"settings.privacy.footer"      = "Verileriniz cihazınızdan ayrılmadan önce yerel olarak şifrelenir.";
+
+"settings.icloudSync"  = "iCloud Senkronizasyonu";
+"settings.googleDrive" = "Google Drive Yedekleme";
+
+"settings.currency"        = "Varsayılan Para Birimi";
+"settings.language"        = "Dil";
+"settings.language.system"          = "Sistem";
+"settings.language.available"       = "Desteklenen Diller";
+"settings.language.openSettings"    = "Sistem Ayarlarını Aç";
+"settings.language.footer"          = "Dil ayarları iOS tarafından yönetilmektedir. Sistem Ayarları'nı açmak için yukarıdaki butona tıklayın ve SubLogic altından uygulama dilini değiştirin.";
+"settings.appearance"      = "Görünüm";
+"settings.notifications"   = "Ödeme Hatırlatıcıları";
+
+"settings.upgradePremium" = "Premium'a Yükselt";
+
+"settings.exportCSV"  = "Verileri Dışa Aktar (CSV)";
+"settings.exportPDF"  = "Raporu Dışa Aktar (PDF)";
+"settings.deleteAll"  = "Tüm Verileri Sil";
+"settings.deleteAll.confirm.title"   = "Tüm Veriler Silinsin mi?";
+"settings.deleteAll.confirm.message" = "Bu işlem tüm aboneliklerinizi kalıcı olarak silecek. Bu işlem geri alınamaz.";
+
+"settings.privacyPolicy" = "Gizlilik Politikası";
+"settings.termsOfUse"    = "Kullanım Koşulları";
+"settings.version"       = "Sürüm";
+"settings.madeWith"      = "Gizlilik anlayışıyla tasarlandı.";
+
+// MARK: - Görünüm
+"appearance.system" = "Sistem";
+"appearance.light"  = "Açık";
+"appearance.dark"   = "Koyu";
+
+// MARK: - Kategoriler
+"category.all"           = "Tümü";
+"category.entertainment" = "Eğlence";
+"category.software"      = "Yazılım";
+"category.health"        = "Sağlık";
+"category.music"         = "Müzik";
+"category.aiTools"       = "Yapay Zeka";
+"category.cloudStorage"  = "Bulut Depolama";
+"category.newsMedia"     = "Haber & Medya";
+"category.education"     = "Eğitim";
+"category.gaming"        = "Oyun";
+"category.productivity"  = "Verimlilik";
+"category.finance"       = "Finans";
+"category.other"         = "Diğer";
+
+// MARK: - Fatura Dönemleri
+"billing.weekly"    = "Haftalık";
+"billing.monthly"   = "Aylık";
+"billing.quarterly" = "3 Aylık";
+"billing.yearly"    = "Yıllık";
+
+// MARK: - Abonelik Ekle
+"add.title"             = "Yeni Abonelik";
+"add.name.placeholder"  = "Abonelik Adı";
+"add.pickTemplate"      = "Şablonlardan seç";
+"add.icon.chooseTitle"  = "İkon Seç";
+"add.icon.emoji"        = "Emoji Seç";
+"add.icon.photo"        = "Fotoğraflardan Seç";
+"add.icon.removePhoto"  = "Fotoğrafı Kaldır";
+"add.currency"          = "Para Birimi";
+"add.billingCycle"      = "Fatura Dönemi";
+"add.firstBill"         = "İlk Fatura Tarihi";
+"add.category"          = "Kategori";
+"add.reminders"          = "Ödeme Hatırlatıcıları";
+"add.reminderDays"       = "%d gün önce hatırlat";
+"add.remindOnPaymentDay" = "Ödeme günü de hatırlat";
+"add.notes.placeholder" = "Notlar (isteğe bağlı)";
+"add.website"           = "Web Sitesi URL";
+"add.howToCancel"       = "İptal Etme";
+"add.openBillingPortal" = "Fatura Portalını Aç ↗";
+"add.section.pricing"   = "Fiyatlandırma";
+"add.section.details"   = "Detaylar";
+"add.section.reminders" = "Hatırlatıcılar";
+"add.section.color"     = "Renk";
+"add.section.notes"     = "Notlar";
+
+// MARK: - Abonelik Düzenle
+"edit.title" = "Aboneliği Düzenle";
+
+// MARK: - Abonelik Detayı
+"detail.title"              = "Abonelik Detayları";
+"detail.price"              = "Fiyat";
+"detail.nextBilling"        = "Sonraki Fatura";
+"detail.cycle"              = "Fatura Dönemi";
+"detail.startDate"          = "Başlangıç Tarihi";
+"detail.monthlyEquiv"       = "Aylık Karşılık";
+"detail.notes"              = "Notlar";
+"detail.remainingPeriods"   = "Kalan Dönem";
+"detail.estimatedEnd"       = "Tahmini Bitiş";
+"detail.trackRemaining"     = "Kalan Dönemi Takip Et";
+"detail.remainingCount"     = "%d dönem kaldı";
+"detail.manageSubscription" = "Aboneliği Yönet ↗";
+"detail.cancelSubscription" = "Aboneliği İptal Et";
+"detail.delete"             = "SubLogic'ten Sil";
+"detail.delete.confirm.title"   = "Abonelik Silinsin mi?";
+"detail.delete.confirm.message" = "Bu işlem aboneliği SubLogic'ten kaldıracak. Aboneliğiniz otomatik olarak iptal edilmeyecek.";
+
+// MARK: - Servis Seçici
+"servicePicker.title"     = "Servis Seç";
+"servicePicker.search"    = "Netflix, Spotify ara...";
+"servicePicker.noResults" = "Servis bulunamadı.\nManuel olarak ekleyebilirsin!";
+
+// MARK: - Emoji Seçici
+"emojiPicker.title" = "İkon ve Renk";
+"emojiPicker.emoji" = "Emoji Seç";
+"emojiPicker.color" = "Renk Seç";
+
+// MARK: - Tüm Abonelikler
+"allSubscriptions.title" = "Tüm Abonelikler";
+"search.placeholder"     = "Abonelik ara...";
+
+// MARK: - Premium
+"premium.title"                        = "SubLogic Premium";
+"premium.tagline"                      = "Tüm Gücü Aç";
+"premium.description"                  = "Gizlilik odaklı kullanıcılar için tasarlanmış premium özelliklerle her aboneliğin kontrolünü ele al.";
+"premium.save17"                       = "%17 Tasarruf";
+"premium.feature.unlimited.title"      = "Sınırsız Abonelik";
+"premium.feature.unlimited.subtitle"   = "İstediğin kadar abonelik takip et";
+"premium.feature.backup.title"         = "iCloud Yedekleme";
+"premium.feature.backup.subtitle"      = "Şifreli senkronizasyon tüm cihazlarında";
+"premium.feature.currency.title"       = "Çoklu Para Birimi";
+"premium.feature.currency.subtitle"    = "Tüm harcamaları tercih ettiğin para biriminde gör";
+"premium.feature.widget.title"         = "Ana Ekran Widget'ı";
+"premium.feature.widget.subtitle"      = "Yaklaşan ödemeleri ana ekranda gör";
+"premium.feature.reminders.title"      = "Akıllı Hatırlatıcılar";
+"premium.feature.reminders.subtitle"   = "Her abonelik için özel bildirim zamanlaması";
+"premium.cta"                          = "Premium Başlat";
+"premium.restore"                      = "Satın Alımları Geri Yükle";
+"premium.setupPending"                 = "Fiyatlandırma yakında kullanıma sunulacak. App Store ürünleri yapılandırılıyor.";
+"premium.terms"                        = "Ödeme Apple ID hesabınıza tahsil edilir. Abonelik, mevcut dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.";
+"premium.privacyPolicy"                = "Gizlilik Politikası";
+"premium.termsOfUse"                   = "Kullanım Koşulları";
+
+// MARK: - Onboarding
+"onboarding.skip"           = "Atla";
+"onboarding.next"           = "İleri";
+"onboarding.getStarted"     = "Başla";
+"onboarding.language"       = "Dil";
+"onboarding.selectCurrency" = "Para biriminizi seçin:";
+
+"onboarding.page0.title"    = "Gizliliğiniz, Önceliğimiz";
+"onboarding.page0.subtitle" = "SubLogic bankanıza hiç bağlanmaz. SMS okumaz. Verileriniz her zaman şifreli olarak cihazınızda kalır.";
+
+"onboarding.page1.title"    = "Akıllı Şablonlar";
+"onboarding.page1.subtitle" = "300'den fazla popüler servis hazır. Netflix'i seç, bölgeni seç, Ekle'ye bas. Hepsi bu kadar.";
+
+"onboarding.page2.title"    = "Çoklu Para Birimi";
+"onboarding.page2.subtitle" = "Toplam harcamanı istediğin para biriminde gör. En iyi fiyatı bulmak için bölgeler arası karşılaştır.";
+
+"onboarding.page3.title"    = "Ödeme Kaçırma";
+"onboarding.page3.subtitle" = "Her fatura tarihinden önce bildirim al. Hatırlatıcıları tam istediğin zaman ayarla.";
+
+"onboarding.page4.title"    = "Para Biriktirmeye Hazır mısın?";
+"onboarding.page4.subtitle" = "Varsayılan para birimini seç ve aboneliklerini saniyeler içinde takip etmeye başla.";
+
+// MARK: - Bildirimler
+"notification.reminder.title" = "Yaklaşan Ödeme";
+"notification.reminder.body"  = "%@ %d gün sonra yenileniyor.";
+"notification.day.title"      = "Bugün Ödeme Günü";
+"notification.day.body"       = "%@ aboneliğinin yenileme günü bugün.";
+
+// MARK: - Widget
+"widget.perMonth"     = "aylık";
+"widget.upcoming"     = "YAKLAŞAN";
+"widget.noUpcoming"   = "Yaklaşan ödeme\nyok 🎉";
+"widget.today"        = "Bugün";
+"widget.inDays"       = "%d gün";
+"widget.activeCount"  = "%d aktif";
+
+// MARK: - Ortak
+"common.cancel" = "İptal";
+"common.save"   = "Kaydet";
+"common.done"   = "Tamam";
+"common.edit"   = "Düzenle";
+"common.close"  = "Kapat";
+"common.ok"     = "Tamam";

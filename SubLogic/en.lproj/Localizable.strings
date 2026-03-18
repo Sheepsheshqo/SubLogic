@@ -1,0 +1,234 @@
+// MARK: - Tabs
+"tab.dashboard"    = "Dashboard";
+"tab.timeline"     = "Timeline";
+"tab.statistics"   = "Statistics";
+"tab.settings"     = "Settings";
+
+// MARK: - Dashboard
+"dashboard.title"          = "Dashboard";
+"dashboard.monthly"        = "Monthly";
+"dashboard.totalExpenses"  = "Total Expenses";
+"dashboard.activeCount"    = "%d active";
+"dashboard.perMonth"       = "per month";
+"dashboard.upcomingPayments" = "Upcoming Payments";
+"dashboard.seeAll"         = "See All";
+"dashboard.noUpcoming"     = "No upcoming payments. You're all caught up!";
+"dashboard.empty.hint"     = "Tap + to add your first subscription";
+
+// MARK: - Due Badges
+"due.today"    = "TODAY";
+"due.tomorrow" = "TOMORROW";
+"due.inDays"   = "in %d days";
+
+// MARK: - Timeline
+"timeline.today"      = "Today";
+"timeline.tomorrow"   = "Tomorrow";
+"timeline.empty"      = "No upcoming payments in the next 60 days.\nYou're all caught up!";
+"timeline.noPayments" = "No payments on this day.";
+
+// MARK: - Statistics
+"stats.monthlyTotal"     = "Monthly Total";
+"stats.yearlyTotal"      = "Yearly Total";
+"stats.subsCount"        = "%d active subscriptions";
+"stats.byCategory"       = "By Category";
+"stats.subCount"         = "%d subscription(s)";
+"stats.mostExpensive"    = "Most Expensive";
+"stats.cheapest"         = "Cheapest";
+"stats.avgPerSub"        = "Avg / Sub";
+"stats.total"            = "Total";
+"stats.byCycle"          = "By Billing Cycle";
+"stats.upcoming"         = "Upcoming Spend";
+"stats.next7d"           = "Next 7 days";
+"stats.next30d"          = "Next 30 days";
+"stats.next90d"          = "Next 90 days";
+"stats.currencyConverter" = "Currency Converter";
+"stats.period.monthly"   = "Monthly";
+"stats.period.yearly"    = "Yearly";
+
+// MARK: - Settings
+"settings.section.privacy"  = "Privacy & Security";
+"settings.section.backup"   = "Cloud Backup";
+"settings.section.general"  = "General";
+"settings.section.data"     = "Data Management";
+
+"settings.encryption"         = "End-to-End Encryption";
+"settings.encryption.subtitle" = "Active & Protected";
+"settings.faceID"             = "App Lock (Face ID)";
+"settings.privacy.footer"     = "Your data is encrypted locally before leaving your device.";
+
+"settings.icloudSync"         = "iCloud Sync";
+"settings.googleDrive"        = "Google Drive Backup";
+
+"settings.currency"           = "Default Currency";
+"settings.language"           = "Language";
+"settings.language.system"          = "System";
+"settings.language.available"       = "Available Languages";
+"settings.language.openSettings"    = "Open System Settings";
+"settings.language.footer"          = "Language settings are managed by iOS. Tap the button above to open System Settings and change the app language under SubLogic.";
+"settings.appearance"         = "Appearance";
+"settings.notifications"      = "Payment Reminders";
+
+"settings.upgradePremium"     = "Upgrade to Premium";
+
+"settings.exportCSV"          = "Export Data (CSV)";
+"settings.exportPDF"          = "Export Report (PDF)";
+"settings.deleteAll"          = "Delete All Data";
+"settings.deleteAll.confirm.title"   = "Delete All Data?";
+"settings.deleteAll.confirm.message" = "This will permanently delete all your subscriptions. This action cannot be undone.";
+
+"settings.privacyPolicy" = "Privacy Policy";
+"settings.termsOfUse"    = "Terms of Use";
+"settings.version"       = "Version";
+"settings.madeWith"      = "Made with privacy in mind.";
+
+// MARK: - Appearance
+"appearance.system" = "System";
+"appearance.light"  = "Light";
+"appearance.dark"   = "Dark";
+
+// MARK: - Categories
+"category.all"          = "All";
+"category.entertainment" = "Entertainment";
+"category.software"     = "Software";
+"category.health"       = "Health";
+"category.music"        = "Music";
+"category.aiTools"      = "AI & Tools";
+"category.cloudStorage" = "Cloud Storage";
+"category.newsMedia"    = "News & Media";
+"category.education"    = "Education";
+"category.gaming"       = "Gaming";
+"category.productivity" = "Productivity";
+"category.finance"      = "Finance";
+"category.other"        = "Other";
+
+// MARK: - Billing Cycles
+"billing.weekly"    = "Weekly";
+"billing.monthly"   = "Monthly";
+"billing.quarterly" = "Quarterly";
+"billing.yearly"    = "Yearly";
+
+// MARK: - Add Subscription
+"add.title"              = "New Subscription";
+"add.name.placeholder"   = "Subscription Name";
+"add.pickTemplate"       = "Pick from templates";
+"add.icon.chooseTitle"   = "Choose Icon";
+"add.icon.emoji"         = "Choose Emoji";
+"add.icon.photo"         = "Choose from Photos";
+"add.icon.removePhoto"   = "Remove Photo";
+"add.currency"           = "Currency";
+"add.billingCycle"       = "Billing Cycle";
+"add.firstBill"          = "First Bill Date";
+"add.category"           = "Category";
+"add.reminders"           = "Payment Reminders";
+"add.reminderDays"        = "Remind me %d day(s) before";
+"add.remindOnPaymentDay"  = "Also remind on payment day";
+"add.notes.placeholder"  = "Notes (optional)";
+"add.website"            = "Website URL";
+"add.howToCancel"        = "How to Cancel";
+"add.openBillingPortal"  = "Open Billing Portal ↗";
+"add.section.pricing"    = "Pricing";
+"add.section.details"    = "Details";
+"add.section.reminders"  = "Reminders";
+"add.section.color"      = "Color";
+"add.section.notes"      = "Notes";
+
+// MARK: - Edit Subscription
+"edit.title" = "Edit Subscription";
+
+// MARK: - Subscription Detail
+"detail.title"              = "Subscription Details";
+"detail.price"              = "Price";
+"detail.nextBilling"        = "Next Billing";
+"detail.cycle"              = "Billing Cycle";
+"detail.startDate"          = "Start Date";
+"detail.monthlyEquiv"       = "Monthly Equivalent";
+"detail.notes"              = "Notes";
+"detail.remainingPeriods"   = "Remaining Periods";
+"detail.estimatedEnd"       = "Estimated End";
+"detail.trackRemaining"     = "Track Remaining Periods";
+"detail.remainingCount"     = "%d periods left";
+"detail.manageSubscription" = "Manage Subscription ↗";
+"detail.cancelSubscription" = "Cancel Subscription";
+"detail.delete"             = "Delete from SubLogic";
+"detail.delete.confirm.title"   = "Delete Subscription?";
+"detail.delete.confirm.message" = "This will remove the subscription from SubLogic. Your subscription will not be cancelled automatically.";
+
+// MARK: - Service Picker
+"servicePicker.title"     = "Choose a Service";
+"servicePicker.search"    = "Search Netflix, Spotify...";
+"servicePicker.noResults" = "No services found.\nAdd it manually!";
+
+// MARK: - Emoji Picker
+"emojiPicker.title" = "Icon & Color";
+"emojiPicker.emoji" = "Choose Emoji";
+"emojiPicker.color" = "Choose Color";
+
+// MARK: - All Subscriptions
+"allSubscriptions.title" = "All Subscriptions";
+"search.placeholder"     = "Search subscriptions...";
+
+// MARK: - Premium
+"premium.title"                        = "SubLogic Premium";
+"premium.tagline"                      = "Unlock Full Power";
+"premium.description"                  = "Take control of every subscription with premium features designed for privacy-first users.";
+"premium.save17"                       = "Save 17%";
+"premium.feature.unlimited.title"      = "Unlimited Subscriptions";
+"premium.feature.unlimited.subtitle"   = "Track as many subscriptions as you need";
+"premium.feature.backup.title"         = "iCloud Backup";
+"premium.feature.backup.subtitle"      = "Encrypted sync across all your devices";
+"premium.feature.currency.title"       = "Multi-Currency";
+"premium.feature.currency.subtitle"    = "View all costs in your preferred currency";
+"premium.feature.widget.title"         = "Home Screen Widget";
+"premium.feature.widget.subtitle"      = "See upcoming payments at a glance";
+"premium.feature.reminders.title"      = "Smart Reminders";
+"premium.feature.reminders.subtitle"   = "Custom notification timing per subscription";
+"premium.cta"                          = "Start Premium";
+"premium.restore"                      = "Restore Purchases";
+"premium.setupPending"                 = "Pricing will be available soon. App Store products are being configured.";
+"premium.terms"                        = "Payment is charged to your Apple ID account. Subscription automatically renews unless cancelled at least 24 hours before the end of the current period.";
+"premium.privacyPolicy"                = "Privacy Policy";
+"premium.termsOfUse"                   = "Terms of Use";
+
+// MARK: - Onboarding
+"onboarding.skip"     = "Skip";
+"onboarding.next"     = "Next";
+"onboarding.getStarted" = "Get Started";
+"onboarding.language" = "Language";
+"onboarding.selectCurrency" = "Select your currency:";
+
+"onboarding.page0.title"    = "Your Privacy, Our Priority";
+"onboarding.page0.subtitle" = "SubLogic never connects to your bank. No SMS reading. Your data stays on your device, always encrypted.";
+
+"onboarding.page1.title"    = "Smart Templates";
+"onboarding.page1.subtitle" = "300+ popular services ready to add. Just pick Netflix, choose your region, and tap Add. Done.";
+
+"onboarding.page2.title"    = "Multi-Currency";
+"onboarding.page2.subtitle" = "See your total spending in any currency. Compare prices across regions to find the best deal.";
+
+"onboarding.page3.title"    = "Never Miss a Payment";
+"onboarding.page3.subtitle" = "Get notified before each billing date. Set reminders exactly when you want them.";
+
+"onboarding.page4.title"    = "Ready to Save Money?";
+"onboarding.page4.subtitle" = "Pick your default currency and start tracking your subscriptions in seconds.";
+
+// MARK: - Notifications
+"notification.reminder.title" = "Upcoming Payment";
+"notification.reminder.body"  = "%@ renews in %d day(s).";
+"notification.day.title"      = "Payment Due Today";
+"notification.day.body"       = "%@ is due for renewal today.";
+
+// MARK: - Widget
+"widget.perMonth"     = "per month";
+"widget.upcoming"     = "UPCOMING";
+"widget.noUpcoming"   = "No payments\ncoming up 🎉";
+"widget.today"        = "Today";
+"widget.inDays"       = "in %dd";
+"widget.activeCount"  = "%d active";
+
+// MARK: - Common
+"common.cancel" = "Cancel";
+"common.save"   = "Save";
+"common.done"   = "Done";
+"common.edit"   = "Edit";
+"common.close"  = "Close";
+"common.ok"     = "OK";

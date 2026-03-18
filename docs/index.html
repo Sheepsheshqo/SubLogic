@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SubLogic — Privacy-First Subscription Tracker</title>
+  <meta name="description" content="Track every subscription privately. No bank access. No SMS reading. Your data stays on your iPhone, always encrypted." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --accent: #4A9EFF;
+      --bg: #000;
+      --card: #111;
+      --text: #f5f5f7;
+      --muted: #a1a1a6;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 80px 24px 60px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .app-icon {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, #1c1c1e 0%, #2c2c2e 100%);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 52px;
+      margin-bottom: 28px;
+      box-shadow: 0 8px 32px rgba(74,158,255,.25);
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -1px;
+      line-height: 1.1;
+    }
+    .hero h1 span { color: var(--accent); }
+    .hero p {
+      margin-top: 18px;
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 36px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: opacity .2s;
+    }
+    .cta:hover { opacity: .85; }
+    .badge {
+      display: inline-block;
+      background: rgba(74,158,255,.12);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    /* FEATURES */
+    .features {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .feature-card {
+      background: var(--card);
+      border: 1px solid #222;
+      border-radius: 20px;
+      padding: 28px 24px;
+    }
+    .feature-card .icon {
+      font-size: 2rem;
+      margin-bottom: 14px;
+    }
+    .feature-card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .feature-card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    /* PRIVACY STRIP */
+    .privacy-strip {
+      background: #0a2a0a;
+      border: 1px solid #1a4a1a;
+      border-radius: 20px;
+      max-width: 720px;
+      margin: 0 auto 60px;
+      padding: 32px 36px;
+      text-align: center;
+    }
+    .privacy-strip h2 {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #30d158;
+      margin-bottom: 10px;
+    }
+    .privacy-strip p {
+      color: #6fbf6f;
+      font-size: 0.93rem;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid #1c1c1e;
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 0.82rem;
+      color: #48484a;
+    }
+    footer a { color: #636366; text-decoration: none; }
+    footer a:hover { color: var(--muted); }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="app-icon">📊</div>
+    <div class="badge">Available on the App Store</div>
+    <h1>Know what you pay.<br/><span>Stop what you don't.</span></h1>
+    <p>Track every subscription privately. No bank access. No SMS reading. Your data stays on your iPhone, always encrypted.</p>
+    <!-- TODO: Replace id000000000 with your real App Store ID after submission -->
+    <a class="cta" href="https://apps.apple.com/app/sublogic/id000000000" target="_blank">
+      Download on the App Store
+    </a>
+  </div>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="icon">🔒</div>
+      <h3>Zero Data Collection</h3>
+      <p>No account required. No server. Everything lives on your device, encrypted by default.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📅</div>
+      <h3>Never Miss a Renewal</h3>
+      <p>Smart reminders before billing dates. Calendar timeline shows exactly what's coming up.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">🌍</div>
+      <h3>Multi-Currency</h3>
+      <p>View all your costs in one currency with live exchange rates. Compare prices across regions.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📦</div>
+      <h3>300+ Templates</h3>
+      <p>Netflix, Spotify, YouTube, Adobe and more — pre-loaded with accurate regional pricing.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">📊</div>
+      <h3>Spending Insights</h3>
+      <p>See your monthly and yearly totals at a glance. Discover which categories cost the most.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon">☁️</div>
+      <h3>iCloud Sync</h3>
+      <p>Premium users get encrypted sync across all their Apple devices via iCloud.</p>
+    </div>
+  </div>
+
+  <div class="privacy-strip" style="margin: 0 24px 60px; max-width: 720px; margin-left: auto; margin-right: auto;">
+    <h2>Privacy First — Always</h2>
+    <p>SubLogic never connects to your bank or reads your messages. Your subscription data is stored locally on your device and never transmitted to any server.</p>
+  </div>
+
+  <footer>
+    &copy; 2026 SubLogic &nbsp;·&nbsp;
+    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="https://github.com/burhanbisgin/SubLogic/issues">Support</a>
+  </footer>
+
+</body>
+</html>
