@@ -247,7 +247,7 @@ struct SettingsView: View {
 
                 // MARK: - About
                 Section {
-                    Link(destination: URL(string: "https://burhanbisgin.github.io/SubLogic/privacy.html")!) {
+                    Link(destination: URL(string: "https://Sheepsheshqo.github.io/SubLogic/privacy.html")!) {
                         HStack {
                             Label(NSLocalizedString("settings.privacyPolicy", comment: ""),
                                   systemImage: "hand.raised.fill")

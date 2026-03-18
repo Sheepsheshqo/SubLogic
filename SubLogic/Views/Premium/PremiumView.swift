@@ -304,7 +304,7 @@ struct PremiumView: View {
 
             HStack(spacing: 16) {
                 Link(NSLocalizedString("premium.privacyPolicy", comment: ""),
-                     destination: URL(string: "https://burhanbisgin.github.io/SubLogic/privacy.html")!)
+                     destination: URL(string: "https://Sheepsheshqo.github.io/SubLogic/privacy.html")!)
                 Text("·")
                     .foregroundStyle(AppColors.tertiaryLabel)
                 Link(NSLocalizedString("premium.termsOfUse", comment: ""),
