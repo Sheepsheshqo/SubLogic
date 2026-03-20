@@ -308,7 +308,7 @@ struct PremiumView: View {
                 Text("·")
                     .foregroundStyle(AppColors.tertiaryLabel)
                 Link(NSLocalizedString("premium.termsOfUse", comment: ""),
-                     destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!)
+                     destination: URL(string: "https://sheepsheshqo.github.io/SubLogic/terms.html")!)
             }
             .font(.system(size: 12, design: .rounded))
             .foregroundStyle(AppColors.accent)

@@ -260,7 +260,7 @@ struct SettingsView: View {
                         }
                     }
 
-                    Link(destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!) {
+                    Link(destination: URL(string: "https://sheepsheshqo.github.io/SubLogic/terms.html")!) {
                         HStack {
                             Label(NSLocalizedString("settings.termsOfUse", comment: ""),
                                   systemImage: "doc.text.fill")
